@@ -21,10 +21,10 @@ burger.addEventListener('click', () => {
 });
 
 // Hide all nav links on clicking anywhere outside the navigation bar
-document.addEventListener('click', (event) => {
-  const target = event.target;
-  if (!target.closest('.navbar') && !target.classList.contains('burger')) {
-    navLinks.classList.remove('show-links');
-    burger.classList.remove('active');
-  }
-});
+// document.addEventListener('click', (event) => {
+//   const target = event.target;
+//   if (!target.closest('.navbar') && !target.classList.contains('burger')) {
+//     navLinks.classList.remove('show-links');
+//     burger.classList.remove('active');
+//   }
+// });
